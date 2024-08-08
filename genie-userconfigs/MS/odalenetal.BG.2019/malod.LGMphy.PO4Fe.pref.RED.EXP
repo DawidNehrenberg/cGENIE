@@ -9,7 +9,7 @@ ea_36=n
 #
 # biological scheme ID string
 bg_par_bio_prodopt="bio_PFe"
-# [PO4] M-M half-sat value (mol kg-1
+# [PO4] M-M half-sat value (mol kg-1)
 bg_par_bio_c0_PO4=0.10E-06
 # [Fe] M-M half-sat value (mol kg-1)
 bg_par_bio_c0_Fe=0.10E-09

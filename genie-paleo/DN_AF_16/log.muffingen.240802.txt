@@ -1,0 +1,74 @@
+ 
+------------------------------------------------------------
+   Hello! Welcome to muffingen v0.9.26
+   We are going to make a GREAT model configuration!
+------------------------------------------------------------
+ 
+>   1. CHECKING PRIMARY OPTIONS ...
+       * GCM == hadcm3l (OK)
+>   2. CREATING GENIE GRID ...
+       - GENIE grid generated.
+>   3. READING AXES INFORMATION ...
+       - Axis info read.
+>   4. READING MASK & TOPO GRIDS ...
+       - Mask & topo info read.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 632)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',632,0)">line 632</a>)] 
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 633)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',633,0)">line 633</a>)] 
+>   5. RE-GRIDING MASK ...
+       - Mask re-gridded.
+       * Original land area fraction    = 0.29777
+       * Re-gridded land area fraction  = 0.29167
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 704)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',704,0)">line 704</a>)] 
+>   6. FILTERING MASK ...
+       - Single cell embayments filtered out.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 743)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',743,0)">line 743</a>)] 
+       - Polar connections cleaned up.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 761)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',761,0)">line 761</a>)] 
+       * found 1 water masses
+       * found 2 water masses
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 771)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',771,0)">line 771</a>)] 
+       - Small water bodies cleaned up.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 779)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',779,0)">line 779</a>)] 
+       * Revised land area fraction = 0.29774
+>   7. USER EDITING OF MASK ...
+       * Mask alteration procedure :
+         (1) left button to turn grid cell to ocean
+         (2) right button to turn grid cell to land
+         (3) middle button, or clickoutside the grid, to finish
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('ginput', 'C:\Program Files\MATLAB\R2024a\toolbox\matlab\uitools\ginput.m', 81)" style="font-weight:bold">ginput</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024a\toolbox\matlab\uitools\ginput.m',81,0)">line 81</a>)
+Interrupted
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('fun_grid_edit_mask', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\fun_grid_edit_mask.m', 39)" style="font-weight:bold">fun_grid_edit_mask</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\fun_grid_edit_mask.m',39,0)">line 39</a>)
+    [x,y,button] = ginput(1);
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 797)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',797,0)">line 797</a>)
+    [go_mask]  = fun_grid_edit_mask(go_mask,go_fmask);
+} 

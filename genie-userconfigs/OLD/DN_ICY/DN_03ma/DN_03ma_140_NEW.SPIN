@@ -1,0 +1,105 @@
+# *******************************************************************
+# *** USERCONFIG.PALEO.BIOGEM.PO4.SPIN ******************************
+# *******************************************************************
+#
+# *** CLIMATE *******************************************************
+#
+# set climate feedback (climate responding to changing pCO2)
+ea_36=y
+#
+# *** BIOLOGICAL NEW PRODUCTION *************************************
+# using the Crichton scheme
+# *** Crichton et al. [2020] calibration ****************************
+# NOTE: light limitation term is different in biological scheme 1N1T_PO4MM_Tdep compared to bio_P
+bg_par_bio_prodopt='1N1T_PO4MM_Tdep'
+bg_par_bio_mu1=10 # Max growth rate term (multiplier)
+bg_par_bio_c0_PO4=8.9369e-007 # [PO4] M-M half-sat value (mol kg-1)
+bg_par_bio_k0_PO4=8.9876e-006 # maximum rate of conversion of dissolved PO4 into organic matter by phytoplankton (mol kg-1 yr-1) [added in from Crichton to AR Template]
+#
+# *** REMINERALIZATION **********************************************
+#
+# *** recommended ***************************************************
+# set 'instantaneous' water column remineralziation
+# bg_par_bio_remin_sinkingrate_physical=9.9E9
+# bg_par_bio_remin_sinkingrate_reaction=125.0
+# *** common settings ***********************************************
+# DOC lifetime (yrs)
+bg_par_bio_remin_DOMlifetime=0.5
+# initial fractional abundance of POC component #2
+bg_par_bio_remin_POC_frac2=0.0557
+# depth of remineralization or particulate organic matter
+bg_par_bio_remin_POC_eL1=589.9451
+# remineralization length #2 for POC
+bg_par_bio_remin_POC_eL2=1000000.0
+# initial fractional abundance of CaCO3 component #2
+bg_par_bio_remin_CaCO3_frac2=0.45
+# depth of remineralization or CaCO3
+bg_par_bio_remin_CaCO3_eL1=1.8905e+003
+# remineralization length #2 for CaCO3
+bg_par_bio_remin_CaCO3_eL2=1000000.0
+# *** Crichton et al. [2020] temeprature-dependent remin ************
+bg_ctrl_bio_remin_POC_fixed=.false.
+bg_par_bio_remin_sinkingrate=125.0 [added in by RGS from Crichton et al. Not in AR template]
+bg_par_bio_remin_POC_K1=9.0E11
+bg_par_bio_remin_POC_Ea1=54000.0
+bg_par_bio_remin_POC_K2=1.0E14
+bg_par_bio_remin_POC_Ea2=80000.0
+bg_par_bio_remin_POC_frac2=0.008
+#
+# *** DATA SAVING ***************************************************
+#
+# BASIC + biology + tracer + proxy diagnostics
+bg_par_data_save_level=15
+bg_ctrl_debug_lvl0=.true.
+ma_debug_loop=1
+# *** recommended ***************************************************
+bg_par_infile_slice_name='save_timeslice_EVERY000500.dat'
+#
+# *** FORCINGS ******************************************************
+#
+# specify forcings -- restoring of atmopsheric pCO2 and d13C
+bg_par_forcing_name='pyyyyz.RpCO2_RpO2'
+bg_par_atm_force_scale_val_3=140E-06 
+bg_par_atm_force_scale_val_6=0.2159 # Restoring pO2 forcing set from SCION
+#
+# *** MISC **********************************************************
+#
+# maximum time-scale to geochemical reaction completion (days)
+bg_par_bio_geochem_tau=45.0
+# extend solubility and geochem constant T range (leave S range as default)
+gm_par_geochem_Tmin  = -2.0
+gm_par_geochem_Tmax  = 45.0
+gm_par_carbchem_Tmin = -2.0
+gm_par_carbchem_Tmax = 45.0
+#
+# carbonate chem handling options from muffin manual
+# number of pH solution iterations
+gm_par_carbchem_pH_iterationmax=1000
+# re-seed pH?
+gm_ctrl_carbchem_pHseed_retry=.true.
+# disable carbonate chemistry updating for time-slices
+#bg_ctrl_data_save_slice_carb_update=.false.
+# force full carbonate chemistry updating
+bg_ctrl_carbchemupdate_full = .true.
+#adjusting planetary albedo to match LGM (muffin manual)
+ea_albedop_offs=0.200
+ea_albedop_amp=0.360
+ea_albedop_skew=0.0
+ea_albedop_skewp=4
+ea_albedop_mod2=-15.000
+ea_albedop_mod4=-2.500
+ea_albedop_mod6=0.000
+#Changing radiative forcings to match LGM (muffin manual)
+# glacial CO2 radiative forcing
+ea_radfor_scl_co2=0.6835
+# glacial CH4 radiative forcing
+ea_radfor_scl_ch4=0.5
+# glacial N2O radiative forcing
+ea_radfor_scl_n2o=0.8
+#Changing orbital config to match LGM (muffin manual)
+ea_opt_orbit_old=.false.
+ea_par_orbit_osce=0.018994
+ea_par_orbit_oscobl=0.4005
+ea_par_orbit_osclonperi=1.9970
+ea_par_orbit_oscsob=0.389911
+ea_par_orbit_oscgam=114.42
