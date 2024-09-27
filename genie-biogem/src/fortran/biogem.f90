@@ -4355,7 +4355,7 @@ subroutine matrix_recover_exp(&
            if (m_i_plus_one.gt.36)then
               m_i_plus_one=1
            elseif(m_i_minus_one.lt.1)then
-              m_i_minus_one=36
+              m_i_minus_one=48
            end if
 
            ! loop over whole grid recording tracer where equals above i j's

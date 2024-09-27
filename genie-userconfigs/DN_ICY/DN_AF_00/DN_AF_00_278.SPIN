@@ -104,7 +104,7 @@ ea_par_orbit_oscgam=114.42
 #Implementing brine rejection (muffin manual, Bouttes et al., 2010)
 bg_ctrl_force_GOLDSTEInTS=.TRUE.
 bg_par_misc_brinerejection_frac=0.1
-bg_par_misc_brinerejection_jmax=9
+bg_par_misc_brinerejection_jmax=18
 #Implementing water age
 bg_ctrl_force_ocn_age1=.true.
 #adjusting planetary albedo to match LGM (muffin manual, Odalen et al 2019 (?))

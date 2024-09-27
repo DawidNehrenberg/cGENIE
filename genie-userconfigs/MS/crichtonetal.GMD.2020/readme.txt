@@ -27,7 +27,7 @@ All experiments are run from:$HOME/cgenie.muffin/genie-main
 located in subdirectory: ensemble.spin
 
 ./runmuffin.sh cgenie.eb_go_gs_ac_bg.worjh2.BASES MS/crichtonetal.GMD.2020/ensemble.spin [letter][no1]_[no2]_worjh2_280ppm_m6_5permil_BASES.SPIN 10000
-
+./runmuffin-to-go-w-receipt.sh dn3g22@soton.ac.uk Notmine/cgenie.eb_go_gs_ac_bg.worjh2.BASES MS/crichtonetal.GMD.2020/ensemble.spin e2_10_worjh2_280ppm_m6_5permil_BASES.SPIN 10000
 ### transient forcing from Pre-industrial to Present ###########
 
 located in subdirectory: ensemble.trans
