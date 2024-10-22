@@ -58,7 +58,7 @@ bg_par_bio_remin_POC_frac2=0.008
 # *** DATA SAVING ***************************************************
 #
 # BASIC + biology + tracer + proxy diagnostics
-bg_par_data_save_level=99
+bg_par_data_save_level=15
 bg_ctrl_debug_lvl0=.true.
 ma_debug_loop=1
 # *** recommended ***************************************************
