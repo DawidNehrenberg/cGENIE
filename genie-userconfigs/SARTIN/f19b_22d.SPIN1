@@ -1,0 +1,110 @@
+#
+# --- CLIMATE --------------------------------------------------
+#
+# set no climate feedback
+ea_36=y
+# set seasonal cycle
+ea_dosc=.true.
+go_dosc=.true.
+gs_dosc=.true.
+#
+# --- BIOLOGICAL NEW PRODUCTION --------------------------------
+#
+# maximum rate of conversion of dissolved PO4 into organic matter by phytoplankton (mol kg-1 yr-1)
+bg_par_bio_k0_PO4=1.9582242E-06
+#[PO4] M-M half-sat value (mol kg-1)
+bg_par_bio_c0_PO4=2.1989611E-07
+#
+# --- ORGANIC MATTER EXPORT RATIOS -----------------------------
+#
+#production fraction of dissolved organic matter
+bg_par_bio_red_DOMfrac=0.66
+#
+# --- INORGANIC MATTER EXPORT RATIOS ---------------------------
+#
+# set fixed CaCO3:POC export rain ratio
+bg_opt_bio_CaCO3toPOCrainratio='FIXED'
+# underlying export CaCO3 as a proportion of particulate organic matter (i.e., CaCO3/POC)
+bg_par_bio_red_POC_CaCO3=0.200
+#
+# --- REMINERALIZATION -----------------------------------------
+#
+#DOC lifetime (yrs)
+bg_par_bio_remin_DOMlifetime=0.5
+#initial fractional abundance of POC component #2
+bg_par_bio_remin_POC_frac2=6.4591110E-02
+# depth of remineralization or particulate organic matter
+bg_par_bio_remin_POC_eL1=550.5195
+#remineralization length #2 for POC
+bg_par_bio_remin_POC_eL2=1000000.0
+#initial fractional abundance of CaCO3 component #2
+bg_par_bio_remin_CaCO3_frac2=0.468
+# depth of remineralization or CaCO3
+bg_par_bio_remin_CaCO3_eL1=1083.486
+#remineralization length #2 for CaCO3
+bg_par_bio_remin_CaCO3_eL2=1000000.0
+#
+# --- SEDIMENTS ------------------------------------------------
+#
+# sediment  grid options
+sg_par_sed_Dmax_neritic=0
+# sediment diagenesis options
+sg_par_sed_diagen_CaCO3opt="NONE"
+sg_ctrl_sed_bioturb=.false.
+sg_ctrl_sed_bioturb_Archer=.false.
+sg_par_n_sed_mix=20
+# apply detrital flux
+sg_par_sed_fdet=0.180
+# global OM degradation rate constants (1/yr)
+sg_par_sed_huelse2017_k1=0.0065
+sg_par_sed_huelse2017_k2=0.005
+# k2 under anoxic bottom water:
+sg_par_sed_huelse2017_k2_anoxic=1E-6
+#
+# --- WEATHERING -----------------------------------------------
+#
+# set a closed system
+bg_ctrl_force_sed_closedsystem=.true.
+bg_ctrl_force_sed_closed_P=.true.
+# NO CaCO3 and CaSiO3 weathering-temperature feedback
+#rg_opt_weather_T_Ca=.true.
+#rg_opt_weather_T_Si=.true.
+# weathering reference mean global land surface temperature (C)
+#rg_par_ref_T0=15
+#CO2 outgassing rate (mol C yr-1)
+rg_par_outgas_CO2=0
+# global carbonate and silicate weathering rate (mol Ca2+ yr-1)
+rg_par_weather_CaSiO3=0
+rg_par_weather_CaCO3=0
+# d13C values
+rg_par_outgas_CO2_d13C=-6.0
+rg_par_weather_CaCO3_d13C=4.161
+#
+# --- DATA SAVING ----------------------------------------------
+#
+# date saving & reporting options
+bg_par_data_save_level=16
+bg_ctrl_debug_lvl0=.true.
+ma_debug_loop=1
+#
+# --- FORCINGS -------------------------------------------------
+#
+# specify forcings -- restoring of atmopsheric pCO2 and d13C
+bg_par_forcing_name='pyyyyz.RpCO2_Rp13CO2.RpO2'
+bg_par_atm_force_scale_val_3=500.0E-06
+bg_par_atm_force_scale_val_4=-6.5
+bg_par_atm_force_scale_val_6=0.2125
+#
+# --- Corg -----------------------------------------------------
+#
+# enable OMENSED Corg burial
+sg_par_sed_diagen_Corgopt='huelse2016'
+# tie ALK in biogem to POC
+bg_ctrl_bio_red_ALKwithPOC=.true.
+# enable OMENSED Porg cycle
+sg_par_sed_huelse2017_P_cycle=.true.
+sg_par_sed_huelse2017_sim_P_loss = .true.
+sg_par_sed_huelse2017_sim_P_loss_pres_fracC = .true.
+#
+# --- END ------------------------------------------------------
+#

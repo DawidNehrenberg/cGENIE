@@ -200,9 +200,12 @@ elif [ $LONS -eq 36 ] && [ $LEVS -eq 32 ]; then
 elif [ $LONS -eq 48 ] && [ $LEVS -eq 16 ]; then
     let N_TIMESTEPS=96
     let dbiostp=2
-elif [ $LONS -eq 72 ]; then
-    let N_TIMESTEPS=192
-    let dbiostp=2
+elif [ $LONS -eq 72 ] && [ $LEVS -eq 8 ]; then
+    let N_TIMESTEPS=195
+    let dbiostp=5
+elif [ $LONS -eq 72 ] && [ $LEVS -eq 16 ]; then
+    let N_TIMESTEPS=195
+    let dbiostp=5
 else
 
 let N_TIMESTEPS=96
