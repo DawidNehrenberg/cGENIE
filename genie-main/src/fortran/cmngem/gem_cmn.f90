@@ -582,7 +582,7 @@ MODULE gem_cmn
   ! primary
   REAL,PARAMETER::conv_atm_mol                            = 1.7692e+020
   REAL,PARAMETER::conv_m3_kg                              = 1027.649 ! from Winton and Sarachik [1993] @ 34.7o/oo,0'C
-  REAL,PARAMETER::conv_yr_d                               = 365.25 !360.00 !365.0
+  REAL,PARAMETER::conv_yr_d                               = 360 !365.25 !360.00 !365.0
   REAL,PARAMETER::conv_yr_hr                              = 24.0 * conv_yr_d
   REAL,PARAMETER::conv_yr_s                               = 3600.0 * conv_yr_hr
   REAL,PARAMETER::conv_kyr_yr                             = 1.0E+03

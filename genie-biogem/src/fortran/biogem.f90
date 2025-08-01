@@ -2896,7 +2896,7 @@ SUBROUTINE biogem_save_restart(dum_genie_clock)
      bio_settle(:,:,:,:) = 0.0
   end if
   ! ---------------------------------------------------------- ! calculate local time (years)
-  loc_yr = real(dum_genie_clock)/(1000.0*conv_yr_s)
+  loc_yr = real(dum_genie_clock)/(100.0*conv_yr_s)
   ! ---------------------------------------------------------- ! test for restart format
   IF (ctrl_ncrst) THEN
      ! ------------------------------------------------------- !

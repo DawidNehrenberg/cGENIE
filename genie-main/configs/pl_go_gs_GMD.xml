@@ -58,7 +58,6 @@
 			<param name="itstp">720</param>
 			<param name="world">pl32_1</param>
 			<param name="diffsic">15000.</param>              <!-- sea ice diffusivity (m2s-1) - non-default parameter SID -->
-			<param name="scf">3.788316</param>                <!-- wind stress scaling (dimensionless), also in goldstein - subjectively tuned parameter SCF -->
 		</model>
 		<model name="plasim">
 			<param name="nafter">115200</param>               <!-- output frequency for averaged plasim-ents fields = 45 minutes * 115200 = 10 years -->

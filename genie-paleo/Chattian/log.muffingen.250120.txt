@@ -1,0 +1,730 @@
+ 
+------------------------------------------------------------
+   Hello! Welcome to muffingen v0.9.26
+   We are going to make a GREAT model configuration!
+------------------------------------------------------------
+ 
+>   1. CHECKING PRIMARY OPTIONS ...
+       * GCM == hadcm3l (OK)
+>   2. CREATING GENIE GRID ...
+       - GENIE grid generated.
+>   3. READING AXES INFORMATION ...
+       - Axis info read.
+>   4. READING MASK & TOPO GRIDS ...
+       - Mask & topo info read.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 632)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',632,0)">line 632</a>)] 
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 633)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',633,0)">line 633</a>)] 
+>   5. RE-GRIDING MASK ...
+       - Mask re-gridded.
+       * Original land area fraction    = 0.31123
+       * Re-gridded land area fraction  = 0.30961
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 704)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',704,0)">line 704</a>)] 
+>   6. FILTERING MASK ...
+       - Single cell embayments filtered out.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 743)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',743,0)">line 743</a>)] 
+       - Polar connections cleaned up.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 761)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',761,0)">line 761</a>)] 
+       * found 1 water masses
+       * found 2 water masses
+       * found 3 water masses
+       * found 4 water masses
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 771)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',771,0)">line 771</a>)] 
+       - Small water bodies cleaned up.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 779)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',779,0)">line 779</a>)] 
+       * Revised land area fraction = 0.31404
+>   7. USER EDITING OF MASK ...
+       * Mask alteration procedure :
+         (1) left button to turn grid cell to ocean
+         (2) right button to turn grid cell to land
+         (3) middle button, or clickoutside the grid, to finish
+         -> Cell at (61, 58) now ocean
+         -> Cell at (40, 1) now land
+         -> Cell at (50, 68) now ocean
+       - Out of grid range
+       * Mask alteration complete
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 802)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',802,0)">line 802</a>)] 
+       * Revised land area fraction = 0.31385
+       - User-editing complete.
+>   8. CREATE FINAL MASK ...
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 832)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',832,0)">line 832</a>)] 
+       - .mask_out.FINAL.dat saved
+       * Final land area fraction   = 0.31385
+>   9. RE-GRIDING TOPOGRAPHY ...
+       - Topography re-gridded.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 884)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',884,0)">line 884</a>)] 
+>   10. RE-GRIDING OCEAN BATHYMETRY ...
+       - Bathymetry re-gridding complete.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 908)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',908,0)">line 908</a>)] 
+>  11. FILTERING BATHYMETRY ...
+         -> MAKE DEEPER :: Loop count = 1 @ (1,58,7); d = 3; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (2,27,15); d = 3; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (3,56,15); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (4,19,7); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (4,28,4); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (4,35,14); d = 3; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (4,53,15); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (4,65,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (5,16,11); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (5,23,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (5,24,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (5,25,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (5,27,6); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (5,30,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (5,65,2); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (6,28,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (6,29,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (6,30,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (6,31,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (6,32,1); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (6,38,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (7,1,6); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (7,14,4); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (7,49,15); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (7,66,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (8,9,9); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (8,29,5); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (8,44,1); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (8,52,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (8,67,4); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (9,33,4); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (9,52,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (10,37,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (10,46,1); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (10,52,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (11,58,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (11,59,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (11,60,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (11,61,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (12,62,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (12,63,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (12,66,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (13,65,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (13,66,1); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (14,6,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (15,20,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (15,43,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (15,69,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (16,52,1); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (16,59,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (16,61,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (16,62,5); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (16,67,9); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (16,69,2); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (17,4,7); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (17,54,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (17,55,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (17,62,7); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (17,65,10); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (17,69,2); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (18,57,4); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (18,59,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (18,68,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (18,70,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (19,7,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (19,11,2); d = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (19,60,4); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (19,68,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (20,2,14); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (20,12,2); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (24,70,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (25,51,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (25,52,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (26,49,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (27,42,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (27,69,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (28,1,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (28,11,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (28,69,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (29,1,4); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (29,14,5); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (29,69,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (29,71,5); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (30,1,4); s = 3; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (30,2,7); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (30,16,5); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (30,20,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (30,69,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (31,19,5); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (31,69,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (32,66,3); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,69,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (33,28,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (33,30,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (33,31,1); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (33,69,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (34,32,1); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (34,68,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (35,21,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (35,22,4); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (35,23,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (36,21,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (36,68,2); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (36,71,7); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (37,20,12); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,26,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,30,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,31,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,46,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,47,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,65,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,66,2); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (38,17,7); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (38,24,11); d = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (39,14,7); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (39,32,12); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (39,67,5); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (39,69,7); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (40,66,9); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (40,71,11); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (41,13,5); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (41,32,8); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (41,61,15); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (41,63,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (41,66,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (42,13,3); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (42,34,9); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (42,63,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (43,30,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (43,31,1); s = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (43,36,11); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (43,59,5); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (43,63,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (44,11,11); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,16,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,33,2); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (44,38,12); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (44,55,7); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,65,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (45,15,1); s = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (45,40,9); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (45,53,5); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (45,70,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (46,8,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (46,10,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (46,11,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (46,12,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (46,13,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (46,14,2); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (46,17,4); d = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (46,49,5); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (46,70,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (47,56,4); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (47,63,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (47,70,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (48,10,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (48,17,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (48,18,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (48,19,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (48,20,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (48,40,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (48,70,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (49,12,2); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (49,32,7); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (49,36,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (49,37,1); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (49,56,2); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (50,3,14); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (50,10,8); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (50,36,3); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (51,1,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (51,2,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (51,38,1); s = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (52,15,12); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (52,53,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (52,66,4); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (52,70,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (53,1,6); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (53,14,10); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (53,16,8); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (53,44,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (53,56,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (53,57,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (54,14,8); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (54,15,8); s = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (55,13,12); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (55,16,8); s = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (55,56,7); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (55,67,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (56,15,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (56,17,12); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (56,59,4); d = 3; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (57,15,15); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (59,60,1); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (59,66,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (60,20,13); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,48,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,50,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,51,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,52,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,53,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,54,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,55,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,56,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,57,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,58,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (61,15,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (61,16,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (61,17,7); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (61,65,4); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (62,19,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (62,20,6); s = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (62,30,7); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (62,38,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (62,39,1); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (62,48,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (62,50,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (62,51,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (62,52,1); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (63,21,4); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (63,26,5); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (63,29,7); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (63,54,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (63,55,1); s = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (64,20,9); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,22,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,23,2); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,25,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (64,27,5); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,30,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,31,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,32,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,33,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,58,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,59,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,60,1); s = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (65,26,8); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (65,67,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (66,35,8); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (66,63,10); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (67,53,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (69,66,2); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (70,29,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (70,30,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (70,31,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (70,52,2); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (70,62,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (70,67,2); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (72,67,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 2 @ (2,27,14); d = 3; l = 1
+         -> MAKE DEEPER :: Loop count = 2 @ (3,56,14); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (4,27,4); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 2 @ (4,53,14); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (5,16,10); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (5,22,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (5,65,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (5,66,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (6,28,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (6,29,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (6,66,3); s = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 2 @ (8,9,8); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (9,52,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (11,59,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (11,60,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (11,61,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (15,42,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (26,48,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (33,68,1); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (35,21,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (35,22,5); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (35,23,6); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 2 @ (36,71,6); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (37,30,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (37,31,6); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 2 @ (39,32,11); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (40,71,10); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (41,32,7); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (41,61,14); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (42,63,6); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 2 @ (43,36,10); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (44,38,11); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (44,55,6); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (45,14,2); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 2 @ (45,40,8); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (46,11,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (46,12,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (47,20,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (48,69,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 2 @ (49,32,6); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (49,69,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (50,69,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (51,69,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (52,52,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (52,69,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (52,70,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (53,69,1); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 2 @ (55,13,11); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (55,56,6); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (60,47,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (60,55,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (60,56,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (61,15,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (61,16,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (61,17,8); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 2 @ (64,20,8); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (64,31,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 2 @ (66,63,9); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (70,29,3); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 3 @ (4,53,13); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 3 @ (5,16,9); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (5,21,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (9,52,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (26,47,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (35,21,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (35,22,6); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (35,23,7); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 3 @ (41,61,13); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 3 @ (44,38,10); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 3 @ (49,32,5); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (52,51,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (53,68,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (54,68,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (55,68,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (61,16,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (61,17,9); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 4 @ (5,16,8); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (35,23,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (52,50,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 4 @ (61,17,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (52,49,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 6 @ (52,48,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 7 @ (52,47,1); s = 3; l = 0
+       - Topography filtered.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 924)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',924,0)">line 924</a>)] 
+>  12. USER EDITING OF TOPO ...
+       * Topography alteration procedure :
+         (1) left button to deepen grid cell
+         (2) right button to shallow grid cell
+         (3) middle button, or clickoutside the grid, to finish
+       - Out of grid range
+       * Mask alteration complete
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 946)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',946,0)">line 946</a>)] 
+       - User-editing complete.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 956)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',956,0)">line 956</a>)] 
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 958)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',958,0)">line 958</a>)] 
+>  13. CALCULATING RUN-OFF AND GENERATE .k1 FILE ...
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 978)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',978,0)">line 978</a>)] 
+       - .k1 file saved
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1004)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1004,0)">line 1004</a>)] 
+>  14. IDENTIFY ISLANDS ...
+       * found 1 land masses
+       * found 2 land masses
+       * found 3 land masses
+       * found 4 land masses
+       * found 5 land masses
+       * found 6 land masses
+       * found 7 land masses
+       * found 8 land masses
+       * found 9 land masses
+       * found 10 land masses
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1017)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1017,0)">line 1017</a>)] 
+>  15. UPDATING ISLANDS & PATHS ...
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1031)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1031,0)">line 1031</a>)] 
+       * updated find: 1 islands
+       * updated find: 2 islands
+       * updated find: 3 islands
+       * updated find: 4 islands
+       * updated find: 5 islands
+       * updated find: 6 islands
+       * total # true islands = 5
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1037)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1037,0)">line 1037</a>)] 
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1041)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1041,0)">line 1041</a>)] 
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1052)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1052,0)">line 1052</a>)] 
+>  16. GENERATING .paths FILE ...
+       * Ignoring border #1
+       * Creating raw path #2 ...
+       * Creating raw path #3 ...
+       * Creating raw path #4 ...
+       * Creating raw path #5 ...
+       * Creating raw path #6 ...
+       * Building path #2 ...
+         -> NE corner :: Skip path entry @ (7,50)
+         -> SE corner :: Add additional path entry @ (5,48)
+       * Building path #3 ...
+         -> NE corner :: Skip path entry @ (19,12)
+         -> SE corner :: Add additional path entry @ (16,9)
+       * Building path #4 ...
+         -> NE corner :: Skip path entry @ (41,42)
+         -> SE corner :: Add additional path entry @ (41,41)
+         -> NE corner :: Skip path entry @ (42,41)
+         -> SE corner :: Add additional path entry @ (42,39)
+         -> NE corner :: Skip path entry @ (43,39)
+         -> SE corner :: Add additional path entry @ (43,37)
+         -> NE corner :: Skip path entry @ (44,37)
+         -> SE corner :: Add additional path entry @ (44,35)
+         -> NE corner :: Skip path entry @ (45,35)
+         -> SE corner :: Add additional path entry @ (45,33)
+         -> NE corner :: Skip path entry @ (47,33)
+         -> SE corner :: Add additional path entry @ (41,8)
+         -> NE corner :: Skip path entry @ (43,8)
+         -> SE corner :: Add additional path entry @ (38,6)
+         -> NE corner :: Skip path entry @ (39,23)
+         -> SE corner :: Add additional path entry @ (38,23)
+         -> NE corner :: Skip path entry @ (38,26)
+         -> SE corner :: Add additional path entry @ (37,26)
+       * Building path #5 ...
+         -> NE corner :: Skip path entry @ (8,24)
+         -> SE corner :: Add additional path entry @ (8,21)
+         -> NE corner :: Skip path entry @ (9,21)
+         -> SE corner :: Add additional path entry @ (9,18)
+         -> NE corner :: Skip path entry @ (10,18)
+         -> SE corner :: Add additional path entry @ (10,17)
+         -> NE corner :: Skip path entry @ (11,17)
+         -> SE corner :: Add additional path entry @ (9,6)
+         -> NE corner :: Skip path entry @ (9,8)
+         -> SE corner :: Add additional path entry @ (7,8)
+         -> NE corner :: Skip path entry @ (7,9)
+         -> SE corner :: Add additional path entry @ (6,9)
+         -> NE corner :: Skip path entry @ (6,10)
+         -> SE corner :: Add additional path entry @ (1,9)
+       * Building path #6 ...
+         -> NE corner :: Skip path entry @ (8,5)
+         -> SE corner :: Add additional path entry @ (8,4)
+         -> NE corner :: Skip path entry @ (12,4)
+         -> SE corner :: Add additional path entry @ (12,3)
+         -> NE corner :: Skip path entry @ (14,3)
+         -> SE corner :: Add additional path entry @ (14,2)
+         -> NE corner :: Skip path entry @ (41,5)
+         -> SE corner :: Add additional path entry @ (41,2)
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1066)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1066,0)">line 1066</a>)] 
+       - .paths file saved
+>  17. GENERATING .psiles FILE ...
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1083)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1083,0)">line 1083</a>)] 
+       - .psiles file saved
+>  18. GENERATING SEDIMENT TOPO ...
+       - Converted k1 file data (nothing to re-grid).
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1180)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1180,0)">line 1180</a>)] 
+       - .depth.dat saved
+       - template file .sedcoremask.dat saved
+       - template file .reefmask.dat saved
+>  20. CREATING WIND PRODUCTS ...
+       - Creating wind product input mask
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 182)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',182,0)">line 182</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 183)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',183,0)">line 183</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 224)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',224,0)">line 224</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 225)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',225,0)">line 225</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+       - Regridding wind stress (x) to GOLDSTEIN u-grid
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 238)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',238,0)">line 238</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+       - Regridding wind stress (y) to GOLDSTEIN u-grid
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 245)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',245,0)">line 245</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+       - Regridding wind stress (x) to GOLDSTEIN v-grid
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 258)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',258,0)">line 258</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+       - Regridding wind stress (y) to GOLDSTEIN v-grid
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 265)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',265,0)">line 265</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+       - Regridding wind velocity (x) to GOLDSTEIN c-grid
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 274)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',274,0)">line 274</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 279)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',279,0)">line 279</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+       - Regridding wind velocity (y) to GOLDSTEIN c-grid
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 282)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',282,0)">line 282</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 287)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',287,0)">line 287</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+       - Regridding wind speed to GOLDSTEIN c-grid
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 297)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',297,0)">line 297</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 302)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',302,0)">line 302</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('make_grid_winds_hadcm3x', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m', 309)" style="font-weight:bold">make_grid_winds_hadcm3x</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\make_grid_winds_hadcm3x.m',309,0)">line 309</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1228)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1228,0)">line 1228</a>)] 
+       - Written tau u (u point) data to C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen/72x72/Chattian/Chattian.taux_u.dat
+       - Written tau u (v point) data to C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen/72x72/Chattian/Chattian.taux_v.dat
+       - Written tau v (u point) data to C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen/72x72/Chattian/Chattian.tauy_u.dat
+       - Written tau v (v point) data to C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen/72x72/Chattian/Chattian.tauy_v.dat
+       - Written u wind speed data to C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen/72x72/Chattian/Chattian.wvelx.dat
+       - Written v wind speed data to C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen/72x72/Chattian/Chattian.wvely.dat
+       - Written BIOGEM windspeed data to C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen/72x72/Chattian/Chattian.windspeed_uvaa.dat
+       - Re-grided GCM wind products.
+>  21. LOADING PLANETARY ALBEDO DATA ...
+       - Read GCM albedo data.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1265)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1265,0)">line 1265</a>)] 
+>  22. CREATING PLANETARY ALBEDO DATA ...
+       - Re-gridded GCM albedo data.
+[Warning: PostScript format 'psc2' will not be supported in a future release.] 
+[> In inputcheck
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 41)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',41,0)">line 41</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('plot_2dgridded', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m', 239)" style="font-weight:bold">plot_2dgridded</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\source\plot_2dgridded.m',239,0)">line 239</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('muffingen', 'C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m', 1288)" style="font-weight:bold">muffingen</a> (<a href="matlab: opentoline('C:\Users\david\OneDrive - University of Southampton\Ice Age Tipping Points\MuffinGen\muffingen.m',1288,0)">line 1288</a>)] 
+       - 2D albedo file saved
+       - Generated zonal mean albedo profile.
+       - .albd.dat file saved
+>  26. GENERATING CONFIG FILE PARAMETER LINES ...
+       - .config file saved
+ 
+------------------------------------------------------------
+   Congratulations! SOMETHING was created ... 
+   ... hope it was what you wished for! :o)
+------------------------------------------------------------
+ 

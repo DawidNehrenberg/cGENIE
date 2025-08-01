@@ -384,10 +384,12 @@ def translate_config(config_filename,script_name='translate_config.py'):
                        'ents_dirnetout': 'el_22',
                        'ents_restart_file': 'el_24',
                        'ents_offlineswitch': 'el_25'}
+    exceptions_bg = {'conv_yr_d' : 'conv_yr_d'}
     exceptions = { 'ea': exceptions_ea,
                    'go': exceptions_go,
                    'gs': exceptions_gs,
-                   'el': exceptions_el }
+                   'el': exceptions_el,
+                   'bg': exceptions_bg }
     
     # Parse old-style parameters from configuration file:
     #    - parse lines of format \s*<variable_name>\s*=\s*<value>.*,

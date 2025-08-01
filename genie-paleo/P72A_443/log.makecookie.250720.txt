@@ -1,0 +1,261 @@
+ 
+------------------------------------------------------------
+   Hello! Welcome to cookiegen v0.9.99
+   We are going to make a GREAT model configuration!
+------------------------------------------------------------
+ 
+>   1. CHECKING PRIMARY OPTIONS ...
+       * GCM == hadcm3l (OK)
+>   2. CREATING GENIE GRID ...
+       - GENIE grid generated.
+>   3. READING AXES INFORMATION ...
+       - Axis info read.
+>   4. READING MASK & TOPO GRIDS ...
+       - Mask & topo info read.
+[Warning: Exported image displays axes toolbar. To remove axes toolbar from image, export again.] 
+>   5. RE-GRIDING MASK ...
+       - Mask re-gridded.
+       * Original land area fraction    = 0.16915
+       * Re-gridded land area fraction  = 0.16358
+>   6. FILTERING MASK ...
+       - Single cell embayments filtered out.
+       - Polar connections cleaned up.
+       * found 1 water masses
+       - Small water bodies cleaned up.
+       * Revised land area fraction = 0.16493
+>   7. APPLYING LAND-SEA MASK ADJUSTMENTS FROM FILE: P72A_443.mask.txt
+>   9. CREATE FINAL MASK ...
+       * Final land area fraction   = 0.16377
+       - .mask.txt saved
+       - .maskzeros.txt saved
+>   10. RE-GRIDING TOPOGRAPHY ...
+       - Topography re-gridded.
+>   11. RE-GRIDING OCEAN BATHYMETRY ...
+       - Bathymetry re-gridding complete.
+>  12. FILTERING BATHYMETRY ...
+         -> MAKE SHALLOWER :: Loop count = 1 @ (1,33,4); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (6,52,15); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (6,55,14); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (7,49,15); d = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (7,53,15); d = 3; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (10,57,12); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (13,59,4); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (17,62,11); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (19,64,10); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (20,71,15); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (22,51,11); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (22,52,9); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (23,50,13); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (26,49,13); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (28,24,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (28,49,15); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (29,32,14); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (29,42,14); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (29,50,12); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (29,53,6); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (30,48,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (30,49,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (31,41,13); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (31,50,6); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,29,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,61,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (33,32,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (33,33,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (33,34,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (36,20,9); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (36,24,15); d = 3; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (36,44,11); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (37,43,13); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,52,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,55,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,56,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,57,7); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (38,19,14); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (38,59,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (38,60,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (39,55,15); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (40,17,10); d = 3; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (40,50,12); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (40,52,10); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (42,19,9); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (44,72,9); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (45,41,8); d = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (46,71,10); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (47,38,7); d = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (48,32,4); d = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (48,70,11); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (50,69,14); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (53,67,14); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (56,66,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (56,67,11); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (59,32,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (59,46,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (59,63,10); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (59,66,15); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,29,12); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (60,65,15); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (64,18,9); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (69,23,11); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (69,26,13); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (70,22,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (70,23,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (71,24,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (71,25,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (71,26,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (71,27,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (71,28,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (71,29,4); s = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (71,32,6); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (72,37,13); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (10,57,11); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (17,62,10); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (19,64,9); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (29,53,5); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (31,50,5); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (32,28,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (33,33,4); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 2 @ (36,20,8); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (36,44,10); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (38,19,13); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (39,55,14); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (46,71,9); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (48,70,10); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (50,69,13); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (59,66,14); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (64,18,8); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (69,23,10); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (71,25,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (71,26,5); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 3 @ (10,57,10); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 3 @ (17,62,9); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (32,27,4); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 3 @ (36,20,7); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 3 @ (38,19,12); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 3 @ (46,71,8); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 3 @ (48,70,9); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 3 @ (50,69,12); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 3 @ (59,66,13); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 3 @ (69,23,9); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 4 @ (17,62,8); d = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 4 @ (46,71,7); d = 2; l = 2
+       - Topography filtered.
+>  13. FINAL TOPO ...
+>  14. FINAL K1 ...
+       - .grid.txt saved
+>  15. CALCULATING RUN-OFF AND GENERATE .k1 FILE ...
+       - .k1 file saved
+>  16. IDENTIFY ISLANDS ...
+       * found 1 land masses
+       * found 2 land masses
+       * found 3 land masses
+       * found 4 land masses
+       * found 5 land masses
+       * found 6 land masses
+       * found 7 land masses
+       * found 8 land masses
+       * found 9 land masses
+>  17. UPDATING ISLANDS & PATHS ...
+       * updated find: 1 islands
+       * updated find: 2 islands
+       * updated find: 3 islands
+       * updated find: 4 islands
+       * updated find: 5 islands
+       * updated find: 6 islands
+       * updated find: 7 islands
+       * updated find: 8 islands
+       * updated find: N pole island (currently uncounted)
+       * updated find: 9 islands
+       * total # true islands = 9
+>  18. GENERATING .paths FILE ...
+       * Ignoring border #1
+       * Creating raw path #2 ...
+       * Creating raw path #3 ...
+       * Creating raw path #4 ...
+       * Creating raw path #5 ...
+       * Creating raw path #6 ...
+       * Creating raw path #7 ...
+       * Creating raw path #8 ...
+       * Creating raw path #9 ...
+       * Creating raw path #10 ...
+       * Building path #2 ...
+         -> NE corner :: Skip path entry @ (28,42)
+         -> SE corner :: Add additional path entry @ (25,32)
+       * Building path #3 ...
+         -> NE corner :: Skip path entry @ (32,31)
+         -> SE corner :: Add additional path entry @ (26,19)
+         -> NE corner :: Skip path entry @ (30,26)
+         -> SE corner :: Add additional path entry @ (29,26)
+       * Building path #4 ...
+         -> NE corner :: Skip path entry @ (42,56)
+         -> SE corner :: Add additional path entry @ (42,54)
+         -> NE corner :: Skip path entry @ (43,54)
+         -> SE corner :: Add additional path entry @ (40,48)
+         -> NE corner :: Skip path entry @ (40,49)
+         -> SE corner :: Add additional path entry @ (35,49)
+       * Building path #5 ...
+         -> NE corner :: Skip path entry @ (39,30)
+         -> SE corner :: Add additional path entry @ (39,28)
+         -> NE corner :: Skip path entry @ (40,28)
+         -> SE corner :: Add additional path entry @ (40,26)
+         -> NE corner :: Skip path entry @ (41,26)
+         -> SE corner :: Add additional path entry @ (37,16)
+         -> NE corner :: Skip path entry @ (37,23)
+         -> SE corner :: Add additional path entry @ (35,23)
+       * Building path #6 ...
+         -> NE corner :: Skip path entry @ (62,32)
+         -> SE corner :: Add additional path entry @ (59,21)
+       * Building path #7 ...
+         -> NE corner :: Skip path entry @ (63,48)
+         -> SE corner :: Add additional path entry @ (61,45)
+       * Building path #8 ...
+         -> NE corner :: Skip path entry @ (64,56)
+         -> SE corner :: Add additional path entry @ (64,55)
+         -> NE corner :: Skip path entry @ (65,55)
+         -> SE corner :: Add additional path entry @ (63,52)
+         -> NE corner :: Skip path entry @ (63,53)
+         -> SE corner :: Add additional path entry @ (62,53)
+       * Building path #9 ...
+         -> NE corner :: Skip path entry @ (10,21)
+         -> SE corner :: Add additional path entry @ (7,17)
+       * Building path #10 ...
+       - .paths file saved
+>  19. GENERATING .psiles FILE ...
+       - .psiles file saved
+>  20. CREATING WIND PRODUCTS ...
+       - windspeed variable (wind_mm_10m) does not exists in .nc
+       - Creating wind product input mask
+       - Regridding wind stress (x) to GOLDSTEIN u-grid
+       - Regridding wind stress (y) to GOLDSTEIN u-grid
+       - Regridding wind stress (x) to GOLDSTEIN v-grid
+       - Regridding wind stress (y) to GOLDSTEIN v-grid
+       - Regridding wind velocity (x) to GOLDSTEIN c-grid
+       - Regridding wind velocity (y) to GOLDSTEIN c-grid
+       - Regridding wind speed to GOLDSTEIN c-grid
+       - Regridding wind speed to land c-grid
+       - Written tau u (u point) data
+       - Written tau u (v point) data
+       - Written tau v (u point) data
+       - Written tau v (v point) data
+       - Written u wind velocity data
+       - Written v wind velocity data
+       - Written BIOGEM windspeed data
+       - Written FULL GRID uvaa windspeed data
+       - Written ENTS uvaa windspeed (derived from velocity)
+       - Re-grided GCM wind products.
+>  21. LOADING PLANETARY ALBEDO DATA ...
+       - Read GCM albedo data.
+>  22. CREATING PLANETARY ALBEDO DATA ...
+       - Re-gridded GCM planetary albedo data.
+       - 2D planetary albedo file saved
+       - Generated zonal mean planetary albedo profile.
+       - Zonal mean .albd_pl.dat file saved
+>  23. GENERATING CONFIG FILE PARAMETER LINES ...
+       - .config file saved
+>  24. GENERATING BASE-CONFIG FILE ...
+       - .config file saved
+ 
+------------------------------------------------------------
+   Congratulations! SOMETHING was created ... 
+   ... hope it was what you wished for! :o)
+------------------------------------------------------------
+ 
