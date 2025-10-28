@@ -23,8 +23,12 @@
 # ====================================================================
 
 ## === Compre the values below to those in user.sh ===
-GENIE_ROOT        = $(HOME)/cgenie.muffin
-OUT_DIR           = $(HOME)/cgenie_output
+#GENIE_ROOT        = $(HOME)/cgenie.muffin
+#OUT_DIR           = $(HOME)/cgenie_output
+#RUNTIME_ROOT      = ../../cgenie.muffin
+
+GENIE_ROOT        = /scratch/dn3g22/cgenie.muffin
+OUT_DIR           = /scratch/dn3g22/cgenie_output
 RUNTIME_ROOT      = ../../cgenie.muffin
 
 # === Fortran compiler (ifc/ifort/f90/pgf90) ===
@@ -89,5 +93,6 @@ NETCDF_DIR=/usr/local
 #NETCDF_DIR=/home/mushroom/netcdf/ifort
 ### Ben Mac Pro ###
 #NETCDF_DIR=/opt/local
+NETCDF_DIR=/scratch/dn3g22/cgenie.muffin
 
 NETCDF_NAME=netcdf

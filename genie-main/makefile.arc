@@ -308,6 +308,8 @@ endif
 
 # === GNU 'gfortran' compiler ===
 # need -fno-automatic for the moment..
+#makes cgenie-72 work
+  FFLAGS += -mcmodel=large
 ifeq ($(F77),gfortran)
   F77_LD=gfortran
   FLAGR4=
