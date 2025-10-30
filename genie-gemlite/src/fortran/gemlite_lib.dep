@@ -1,1 +1,0 @@
-gemlite_lib.o gemlite_lib.dep : gemlite_lib.f90 

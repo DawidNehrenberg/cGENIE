@@ -37,14 +37,14 @@
 module load gcc/6.4.0
 module load gnumake
 
-LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin/lib/lib
+LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin/lib
 export LD_LIBRARY_PATH
 
 short_name=$(echo $2 | sed 's:.*/::')
 # Assume all experiments in ensemble have same number of iterations
 # just check the first directory alphabetically
-first_dir=$(ls ~/cgenie.muffin/genie-userconfigs/$2 | head -1)
-iterations=$(find /scratch/$USER/cgenie.muffin/genie-userconfigs/$2/$first_dir -name "*.config" | wc -l)
+first_dir=$(ls /scratch/dn3g22/cgenie.muffin/genie-userconfigs/$2 | head -1)
+iterations=$(find /scratch/dn3g22/cgenie.muffin/genie-userconfigs/$2/$first_dir -name "*.config" | wc -l)
 iteration="1"
 
 for iteration in $(seq $iterations)
@@ -52,13 +52,12 @@ do
 
 # for all batch files we start with the same code here...
 printf "#!/bin/sh
-
 #SBATCH --nodes=1                # Number of nodes requested
 #SBATCH --ntasks-per-node=40     # Tasks per node
 #SBATCH --time=60:00:00
 #SBATCH --mail-user=$1
 #SBATCH --mail-type=BEGIN,END,FAIL
-#SBATCH -o "/home/$USER/slurm/$(date +%Y%m%d%H%M%S)-slurm-job.txt"
+#SBATCH -o "/scratch/dn3g22/slurm/$(date +%Y%m%d%H%M%S)-slurm-job.txt"
 
 
 module load gcc/6.4.0
@@ -67,11 +66,11 @@ module load gnumake
 LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin/lib
 export LD_LIBRARY_PATH
 
-cd ~/cgenie.muffin/genie-main
-" > ~/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
+cd /scratch/dn3g22/cgenie.muffin/genie-main
+" > /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
 
 i=1
-for line in $(ls ~/cgenie.muffin/genie-userconfigs/$2)
+for line in $(ls /scratch/dn3g22/cgenie.muffin/genie-userconfigs/$2)
 do
 # for each line, we get an experiment with multiple restarts
 # experiment naming should be set up such that:
@@ -83,28 +82,31 @@ do
 # could eventually update this in the future for mixed plasim runs, gemlite runs, etc.
 
 if [ $iteration -eq 1 ]; then # first experiment doesnt necessarily start from a restart (need to build in this option though)
-if [ $i -le 20 ]; then # no waiting for first 20 runs
-printf "(cd /scratch/$USER/cgenie.muffin-$i/genie-main; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$i/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2/$line ${line}-${iteration}.config $3 &> ~/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
-"  >> ~/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
-else # wait 6 mins (recall five occassionally not being quite enough) for second 20 runs
-j=$((i-20))
-printf "(cd /scratch/$USER/cgenie.muffin-$j/genie-main; sleep 360; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$j/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2/$line ${line}-${iteration}.config $3 &> ~/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
-"  >> ~/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
+if [ $i -le 5 ]; then # no waiting for first 20 runs
+printf "(cd /scratch/dn3g22/cgenie.muffin-$i/genie-main; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$i/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
+"  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
+else # wait 6 mins (recall five occasionally not being quite enough) for second 20 runs
+j=$(( (i - 5) % 5 ))
+if [ $j -eq 0 ]; then
+  j=5
+fi
+printf "(cd /scratch/dn3g22/cgenie.muffin-$j/genie-main; sleep 360; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$j/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
+"  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
 fi
 else # subsequent experiments all start from a restart
-printf "(cd /scratch/$USER/cgenie.muffin-$i/genie-main; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$i/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2/$line ${line}-${iteration}.config $3 ${line}-$((iteration - 1)).config &> ~/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
-"  >> ~/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
+printf "(cd /scratch/dn3g22/cgenie.muffin-$i/genie-main; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$i/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 ${line}-$((iteration - 1)).config &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
+"  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
 fi
 i=$((i+1))
 done
 
 # take the final ampersand away!
-truncate -s -2 ~/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
+truncate -s -2 /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
 
 printf '
 
 wait
-' >> ~/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
+' >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
 
 # if youre anuything but the final run, add code to start the next sbatch job at the end of this one!
 if [ $iteration -lt $iterations ]
@@ -118,12 +120,12 @@ do
 echo "Waiting for free cgenie.muffin-*/genie-main clones to initiate experiments from..."
 sleep 60
 continue
-done' >> ~/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
+done' >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
 # Swapping between '' and "" so that variables are pasted in rather than the code refering to variables being pasted in
 # Sure there is a more elegant way of doing this but this works fine...
 printf "
-sbatch ~/cgenie.jobs/muffin-basket-$short_name-$((iteration + 1)).sbatch
-"  >> ~/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
+sbatch /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$((iteration + 1)).sbatch
+"  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
 fi
 
 # finish iterations loop
@@ -142,4 +144,4 @@ done
 #done
 # set first .sbatch script running within this shell script
 # next ones are set running by the previous sbatch file.
-sbatch ~/cgenie.jobs/muffin-basket-$short_name-1.sbatch
+sbatch /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-1.sbatch

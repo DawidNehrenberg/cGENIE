@@ -23,10 +23,6 @@
 # ====================================================================
 
 ## === Compre the values below to those in user.sh ===
-#GENIE_ROOT        = $(HOME)/cgenie.muffin
-#OUT_DIR           = $(HOME)/cgenie_output
-#RUNTIME_ROOT      = ../../cgenie.muffin
-
 GENIE_ROOT        = /scratch/dn3g22/cgenie.muffin
 OUT_DIR           = /scratch/dn3g22/cgenie_output
 RUNTIME_ROOT      = ../../cgenie.muffin
@@ -78,7 +74,7 @@ MODEXT=mod
 # (http://www.unidata.ucar.edu/packages/netcdf/index.html)
 
 ### DEFAULT ###
-NETCDF_DIR=/usr/local
+#NETCDF_DIR=/usr/local
 ### sterling ###
 #NETCDF_DIR=/share/apps
 ### eevee ###
@@ -93,6 +89,7 @@ NETCDF_DIR=/usr/local
 #NETCDF_DIR=/home/mushroom/netcdf/ifort
 ### Ben Mac Pro ###
 #NETCDF_DIR=/opt/local
+### Iridis/Lyceum (should work for Red Hat HPC facilities generally) ###
 NETCDF_DIR=/scratch/dn3g22/cgenie.muffin
 
 NETCDF_NAME=netcdf

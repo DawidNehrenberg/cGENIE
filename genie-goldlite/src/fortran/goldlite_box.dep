@@ -1,1 +1,0 @@
-goldlite_box.o goldlite_box.dep : goldlite_box.f90 
