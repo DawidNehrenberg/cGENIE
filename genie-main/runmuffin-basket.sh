@@ -90,7 +90,7 @@ j=$(( (i - 5) % 5 ))
 if [ $j -eq 0 ]; then
   j=5
 fi
-printf "(cd /scratch/dn3g22/cgenie.muffin-$j/genie-main; sleep 360; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$j/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
+printf "(cd /scratch/dn3g22/cgenie.muffin-$j/genie-main; sleep 420; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$j/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
 "  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
 fi
 else # subsequent experiments all start from a restart
