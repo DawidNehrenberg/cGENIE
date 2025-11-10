@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job creator="translate_config.py" date="2025-11-10">
+	<vars>
+		<var name="EXPID">PED1_430-1.config</var>
+	</vars>
+	<config>
+		<model name="goldsteinseaice"/>
+		<model name="biogem"/>
+		<model name="atchem"/>
+		<model name="goldstein"/>
+		<model name="embm"/>
+	</config>
+	<build>
+		<macro handle="GENIENXOPTS" status="defined">
+			<identifier>GENIENX</identifier>
+			<replacement>72</replacement>
+		</macro>
+		<macro handle="GENIENYOPTS" status="defined">
+			<identifier>GENIENY</identifier>
+			<replacement>72</replacement>
+		</macro>
+		<macro handle="GOLDSTEINNLONSOPTS" status="defined">
+			<identifier>GOLDSTEINNLONS</identifier>
+			<replacement>72</replacement>
+		</macro>
+		<macro handle="GOLDSTEINNLATSOPTS" status="defined">
+			<identifier>GOLDSTEINNLATS</identifier>
+			<replacement>72</replacement>
+		</macro>
+		<macro handle="GOLDSTEINNLEVSOPTS" status="defined">
+			<identifier>GOLDSTEINNLEVS</identifier>
+			<replacement>16</replacement>
+		</macro>
+		<macro handle="GOLDSTEINNTRACSOPTS" status="defined">
+			<identifier>GOLDSTEINNTRACS</identifier>
+			<replacement>14</replacement>
+		</macro>
+		<macro handle="SEDGEMNLONSOPTS" status="defined">
+			<identifier>SEDGEMNLONS</identifier>
+			<replacement>72</replacement>
+		</macro>
+		<macro handle="SEDGEMNLATSOPTS" status="defined">
+			<identifier>SEDGEMNLATS</identifier>
+			<replacement>72</replacement>
+		</macro>
+		<macro handle="ROKGEMNLONSOPTS" status="defined">
+			<identifier>ROKGEMNLONS</identifier>
+			<replacement>72</replacement>
+		</macro>
+		<macro handle="ROKGEMNLATSOPTS" status="defined">
+			<identifier>ROKGEMNLATS</identifier>
+			<replacement>72</replacement>
+		</macro>
+	</build>
+	<testing/>
+	<parameters>
+		<control>
+			<param name="expid_name">PED1_430-1.config</param>
+			<param name="koverall_total">4000000</param>
+			<param name="ksic_loop">5</param>
+			<param name="kocn_loop">5</param>
+			<param name="klnd_loop">5</param>
+			<param name="conv_kocn_katchem">5</param>
+			<param name="conv_kocn_ksedgem">160</param>
+			<param name="conv_kocn_kbiogem">5</param>
+			<param name="conv_kocn_krokgem">5</param>
+			<param name="conv_kocn_kecogem">5</param>
+			<param name="kgemlite">160</param>
+			<param name="dt_write">4000000</param>
+			<param name="genie_timestep">39447.00000000000000000000</param>
+			<param name="genie_solar_constant">1318.3804</param>
+			<param name="fname_topo">PED1_430</param>
+			<param name="par_grid_lon_offset">-180</param>
+			<paramArray name="ocn_select">
+				<param index="3">.true.</param>
+				<param index="4">.true.</param>
+				<param index="8">.true.</param>
+				<param index="10">.true.</param>
+				<param index="12">.true.</param>
+				<param index="15">.true.</param>
+				<param index="16">.true.</param>
+				<param index="20">.true.</param>
+				<param index="35">.true.</param>
+				<param index="38">.true.</param>
+				<param index="40">.true.</param>
+				<param index="50">.true.</param>
+			</paramArray>
+			<paramArray name="atm_select">
+				<param index="3">.true.</param>
+				<param index="4">.true.</param>
+				<param index="6">.true.</param>
+				<param index="16">.true.</param>
+			</paramArray>
+			<paramArray name="sed_select">
+				<param index="3">.true.</param>
+				<param index="4">.true.</param>
+				<param index="8">.true.</param>
+				<param index="14">.true.</param>
+				<param index="15">.true.</param>
+				<param index="22">.true.</param>
+				<param index="32">.true.</param>
+				<param index="33">.true.</param>
+				<param index="34">.true.</param>
+				<param index="36">.true.</param>
+			</paramArray>
+		</control>
+		<model name="goldsteinseaice">
+			<param name="indir_name">
+				..
+				<sep/>
+				..
+				<sep/>
+				cgenie.muffin
+				<sep/>
+				genie-paleo
+				<sep/>
+				PED1_430
+			</param>
+			<param name="world">PED1_430</param>
+			<param name="npstp">800000</param>
+			<param name="iwstp">800000</param>
+			<param name="itstp">800001</param>
+			<param name="ianav">800001</param>
+			<param name="ans">n</param>
+			<param name="nyear">160</param>
+			<param name="diffsic">1000.000</param>
+			<param name="lout">rst</param>
+			<param name="netout">n</param>
+			<param name="ascout">y</param>
+			<param name="dosc">.true.</param>
+			<param name="par_sica_thresh">0.99</param>
+		</model>
+		<model name="embm">
+			<param name="indir_name">
+				..
+				<sep/>
+				..
+				<sep/>
+				cgenie.muffin
+				<sep/>
+				genie-paleo
+				<sep/>
+				PED1_430
+			</param>
+			<param name="world">PED1_430</param>
+			<param name="xu_wstress">PED1_430.taux_u.dat</param>
+			<param name="yu_wstress">PED1_430.tauy_u.dat</param>
+			<param name="xv_wstress">PED1_430.taux_v.dat</param>
+			<param name="yv_wstress">PED1_430.tauy_v.dat</param>
+			<param name="u_wspeed">PED1_430.wvelx.dat</param>
+			<param name="v_wspeed">PED1_430.wvely.dat</param>
+			<param name="npstp">800000</param>
+			<param name="iwstp">800000</param>
+			<param name="itstp">800001</param>
+			<param name="ianav">800001</param>
+			<param name="ans">n</param>
+			<param name="nyear">160</param>
+			<param name="scf">1.531013488769531300</param>
+			<param name="diffwid">1.410347938537597700</param>
+			<param name="difflin">0.090003050863742828</param>
+			<param name="scl_fwf">0.0</param>
+			<param name="lout">rst</param>
+			<param name="netout">n</param>
+			<param name="ascout">y</param>
+			<param name="atchem_radfor">y</param>
+			<param name="dosc">.true.</param>
+			<param name="opt_orbit_old">.false.</param>
+			<param name="par_orbit_osce">0.0167</param>
+			<param name="par_orbit_oscobl">0.409093</param>
+			<param name="par_orbit_osclonperi">1.796257</param>
+			<param name="par_albedo1d_name">PED1_430.albd_pl.dat</param>
+			<paramArray name="diffamp">
+				<param index="1">5204945.000000000000000000</param>
+				<param index="2">1173269.250000000000000000</param>
+			</paramArray>
+			<paramArray name="betam">
+				<param index="1">0.0000000E+00</param>
+				<param index="2">0.164652019739151000</param>
+			</paramArray>
+			<paramArray name="betaz">
+				<param index="1">0.001037851092405617</param>
+				<param index="2">0.164652019739151000</param>
+			</paramArray>
+		</model>
+		<model name="goldstein">
+			<param name="indir_name">
+				..
+				<sep/>
+				..
+				<sep/>
+				cgenie.muffin
+				<sep/>
+				genie-paleo
+				<sep/>
+				PED1_430
+			</param>
+			<param name="world">PED1_430</param>
+			<param name="npstp">800000</param>
+			<param name="iwstp">800000</param>
+			<param name="itstp">800001</param>
+			<param name="ianav">800001</param>
+			<param name="ans">n</param>
+			<param name="nyear">160</param>
+			<param name="temp0">5.0</param>
+			<param name="temp1">5.0</param>
+			<param name="rel">0.9000000</param>
+			<param name="scf">1.531013488769531300</param>
+			<param name="adrag">2.710164785385131800</param>
+			<param name="lout">rst</param>
+			<param name="netout">n</param>
+			<param name="ascout">y</param>
+			<param name="dosc">.true.</param>
+			<param name="diso">.true.</param>
+			<param name="saln0">33.9</param>
+			<param name="par_dsc">5000</param>
+			<param name="par_dk">0</param>
+			<paramArray name="diff">
+				<param index="1">1494.438354492187500000</param>
+				<param index="2">0.000025363247914356</param>
+			</paramArray>
+		</model>
+		<model name="atchem">
+			<param name="ctrl_continuing">f</param>
+			<param name="ctrl_ncrst">.true.</param>
+			<paramArray name="atm_init">
+				<param index="3">0.000869654952799995</param>
+				<param index="4">-6.5</param>
+				<param index="6">0.1625</param>
+			</paramArray>
+		</model>
+		<model name="sedgem">
+			<param name="ctrl_continuing">f</param>
+			<param name="par_misc_t_runtime">5000</param>
+			<param name="ctrl_ncrst">.true.</param>
+		</model>
+		<model name="ecogem">
+			<param name="ctrl_continuing">f</param>
+			<param name="ctrl_ncrst">.true.</param>
+		</model>
+		<model name="ents">
+			<param name="ents_npstp">800000</param>
+			<param name="ents_iwstp">800000</param>
+			<param name="ents_itstp">800001</param>
+			<param name="ents_ianav">800001</param>
+			<param name="ents_restart">n</param>
+			<param name="ents_out_name">rst</param>
+			<param name="ents_restart_file">rst.sland</param>
+		</model>
+		<model name="biogem">
+			<param name="ctrl_continuing">f</param>
+			<param name="par_misc_t_runtime">5000</param>
+			<param name="par_bio_geochem_tau">45.0</param>
+			<param name="ctrl_force_windspeed">.true.</param>
+			<param name="par_gastransfer_a">0.904</param>
+			<param name="par_windspeed_file">PED1_430.windspeed_uvaa.dat</param>
+			<param name="ctrl_force_oldformat">.false.</param>
+			<param name="par_forcing_name">pyyyyz.RpCO2_Rp13CO2</param>
+			<param name="par_bio_prodopt">bio_P</param>
+			<param name="par_bio_c0_PO4">0.10E-06</param>
+			<param name="par_bio_tau">63.3827</param>
+			<param name="par_bio_red_DOMfrac">0.66</param>
+			<param name="opt_bio_CaCO3toPOCrainratio">FIXED</param>
+			<param name="par_bio_red_POC_CaCO3">0.200</param>
+			<param name="par_bio_remin_DOMlifetime">0.5</param>
+			<param name="par_bio_remin_POC_frac2">0.0557</param>
+			<param name="par_bio_remin_POC_eL1">589.9451</param>
+			<param name="par_bio_remin_POC_eL2">1000000.0</param>
+			<param name="par_bio_remin_CaCO3_frac2">0.45</param>
+			<param name="par_bio_remin_CaCO3_eL1">1.8905e+003</param>
+			<param name="par_bio_remin_CaCO3_eL2">1000000.0</param>
+			<param name="par_bio_remin_sinkingrate_physical">9.9E9</param>
+			<param name="par_bio_remin_sinkingrate_reaction">125.0</param>
+			<param name="par_pindir_name">
+				..
+				<sep/>
+				..
+				<sep/>
+				cgenie.muffin
+				<sep/>
+				genie-paleo
+				<sep/>
+				PED1_430
+				<sep/>
+			</param>
+			<param name="par_infile_slice_name">save_timeseries_EVERY001000_orbits.dat</param>
+			<param name="par_data_save_level">7</param>
+			<param name="ctrl_ncrst">.true.</param>
+			<paramArray name="ocn_init">
+				<param index="3">2.244E-03</param>
+				<param index="4">0.4</param>
+				<param index="8">2.20154926630367e-06</param>
+				<param index="10">1.696E-04</param>
+				<param index="12">2.363E-03</param>
+				<param index="35">10.280E-03</param>
+				<param index="38">28.240E-03</param>
+				<param index="50">52.820E-03</param>
+			</paramArray>
+			<paramArray name="par_atm_force_scale_val">
+				<param index="3">1117.64585325536E-06</param>
+			</paramArray>
+		</model>
+		<model name="rokgem">
+			<param name="ctrl_continuing">f</param>
+		</model>
+	</parameters>
+</job>
+

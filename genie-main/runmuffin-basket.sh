@@ -83,18 +83,18 @@ do
 
 if [ $iteration -eq 1 ]; then # first experiment doesnt necessarily start from a restart (need to build in this option though)
 if [ $i -le 5 ]; then # no waiting for first 20 runs
-printf "(cd /scratch/dn3g22/cgenie.muffin-$i/genie-main; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$i/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
+printf "(cd /scratch/dn3g22/cgenie.muffin-$i/genie-main; module load gcc/6.4.0; module load gnumake; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$i/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log; sleep 360) &
 "  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
 else # wait 6 mins (recall five occasionally not being quite enough) for second 20 runs
 j=$(( (i - 5) % 5 ))
 if [ $j -eq 0 ]; then
   j=5
 fi
-printf "(cd /scratch/dn3g22/cgenie.muffin-$j/genie-main; sleep 420; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$j/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
+printf "(cd /scratch/dn3g22/cgenie.muffin-$j/genie-main; module load gcc/6.4.0; module load gnumake; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$j/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log; sleep 360) &
 "  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
 fi
 else # subsequent experiments all start from a restart
-printf "(cd /scratch/dn3g22/cgenie.muffin-$i/genie-main; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$i/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 ${line}-$((iteration - 1)).config &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
+printf "(cd /scratch/dn3g22/cgenie.muffin-$i/genie-main; module load gcc/6.4.0; module load gnumake; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$i/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 ${line}-$((iteration - 1)).config &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
 "  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
 fi
 i=$((i+1))
