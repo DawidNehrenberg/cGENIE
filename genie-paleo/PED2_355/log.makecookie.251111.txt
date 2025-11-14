@@ -1,0 +1,1492 @@
+ 
+------------------------------------------------------------
+   Hello! Welcome to cookiegen v0.9.99
+   We are going to make a GREAT model configuration!
+------------------------------------------------------------
+ 
+>   1. CHECKING PRIMARY OPTIONS ...
+       * GCM == hadcm3l (OK)
+>   2. CREATING GENIE GRID ...
+       - GENIE grid generated.
+>   3. READING AXES INFORMATION ...
+       - Axis info read.
+>   4. READING MASK & TOPO GRIDS ...
+       - Mask & topo info read.
+>   5. RE-GRIDING MASK ...
+       - Mask re-gridded.
+       * Original land area fraction    = 0.19454
+       * Re-gridded land area fraction  = 0.19406
+>   6. FILTERING MASK ...
+       - Single cell embayments filtered out.
+       - Polar connections cleaned up.
+       * found 1 water masses
+       * found 2 water masses
+       - Small water bodies cleaned up.
+       * Revised land area fraction = 0.19772
+>   7. APPLYING LAND-SEA MASK ADJUSTMENTS FROM FILE: PED1_355.mask.txt
+>   9. CREATE FINAL MASK ...
+       * Final land area fraction   = 0.19792
+       - .mask.txt saved
+       - .maskzeros.txt saved
+>   10. RE-GRIDING TOPOGRAPHY ...
+       - Topography re-gridded.
+>   11. RE-GRIDING OCEAN BATHYMETRY ...
+       - Bathymetry re-gridding complete.
+>  12. FILTERING BATHYMETRY ...
+         -> MAKE DEEPER :: Loop count = 1 @ (4,70,7); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (5,70,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (6,70,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (7,70,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (8,70,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (9,70,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (10,70,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (11,70,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (12,70,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (13,70,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (15,69,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (16,69,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (17,69,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (18,69,1); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (19,68,4); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (19,69,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (20,68,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (21,67,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (21,70,1); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (21,71,15); d = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (22,70,15); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (23,58,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (23,62,7); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (23,69,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (24,57,5); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (24,59,7); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (24,60,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (24,61,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (24,62,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (24,63,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (24,68,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (25,55,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (25,64,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (26,54,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (26,55,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (26,65,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (26,68,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (26,70,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (27,65,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (27,67,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (28,65,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (28,67,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (29,44,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (29,45,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (29,46,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (29,48,1); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (29,65,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (29,67,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (30,47,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (30,65,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (30,67,1); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (31,25,9); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (31,26,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (31,28,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (31,52,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,29,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,34,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,35,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,36,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,37,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,38,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,39,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,40,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,41,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,42,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (32,43,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (33,20,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (33,24,12); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (34,22,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (34,25,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (35,23,4); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (36,8,1); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (36,13,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (36,14,1); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (36,24,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (36,26,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,7,1); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,24,10); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (37,27,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (38,54,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (38,55,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (38,56,1); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (39,46,15); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (39,50,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (39,58,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (40,23,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (40,28,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (40,29,1); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (40,42,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (40,43,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (40,47,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (40,48,1); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (40,59,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (41,8,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (41,37,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (41,56,14); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (41,60,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (41,61,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (42,21,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (42,22,4); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (42,37,1); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (42,39,1); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (42,40,9); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (42,56,14); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (42,57,14); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (43,20,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (43,23,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (43,25,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (43,27,5); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (43,35,7); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (43,55,14); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,11,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,12,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,16,1); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (44,17,5); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,20,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,23,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,29,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,32,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,50,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,51,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,52,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,53,10); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,54,12); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,58,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,59,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (44,60,1); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (45,13,5); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (45,14,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (45,15,1); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (45,23,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (45,31,1); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (45,32,8); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (45,57,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (46,23,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (46,47,1); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (46,48,4); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (47,23,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (47,31,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (47,42,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (47,43,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (47,48,1); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (48,23,1); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (48,50,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (49,23,5); d = 4; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (49,48,6); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (49,54,12); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (49,55,13); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (50,14,1); s = 3; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (50,41,7); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (51,48,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (51,52,7); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (51,53,11); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (51,59,1); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (52,39,6); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (52,47,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (52,49,3); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (52,60,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (53,45,1); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (53,46,5); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (53,47,3); s = 3; l = 0
+         -> MAKE DEEPER :: Loop count = 1 @ (54,36,6); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (54,44,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (54,61,1); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (55,35,5); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (55,36,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (55,43,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (55,46,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (56,42,1); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (56,43,14); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (57,34,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (57,37,1); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (57,40,15); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (57,46,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (57,61,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (57,62,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (58,43,8); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (58,44,7); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (58,45,7); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (58,54,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (59,38,8); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (59,39,8); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (59,40,8); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (59,41,8); s = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (59,53,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,31,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,32,7); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,35,8); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,48,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,49,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,50,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,51,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (60,52,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (62,45,1); s = 3; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (64,49,10); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,50,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,61,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (64,65,1); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (65,50,5); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (65,51,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (65,52,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (65,53,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 1 @ (66,59,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (66,60,1); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (66,66,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (68,67,1); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (69,68,13); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 1 @ (69,69,3); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 1 @ (70,69,11); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 1 @ (71,70,1); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 1 @ (72,70,10); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (5,70,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (6,70,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (7,70,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (8,70,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (9,70,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (10,70,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (11,70,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (12,70,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (13,70,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (15,69,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (16,69,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (17,69,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (18,69,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (19,69,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (20,68,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (21,67,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (21,70,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (23,69,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (24,60,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (24,61,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (24,62,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (24,63,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (24,68,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (25,55,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (25,64,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (26,54,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (26,55,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (26,65,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (26,68,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (26,70,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (27,65,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (27,67,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (28,65,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (28,67,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (29,44,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (29,45,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (29,46,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (29,48,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (29,65,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (29,67,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (30,47,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (30,65,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (30,67,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (31,26,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (31,28,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (31,52,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (32,29,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (32,34,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (32,35,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (32,36,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (32,37,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (32,38,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (32,39,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (32,40,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (32,41,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (32,42,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (32,43,2); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (33,24,11); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (34,25,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (35,24,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (35,26,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (36,8,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (36,13,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (36,14,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (36,26,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (37,7,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (37,27,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (38,54,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (38,55,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (38,56,2); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (39,46,14); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (39,50,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (39,58,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (40,8,1); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (40,28,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (40,29,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (40,42,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (40,43,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (40,47,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (40,48,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (40,59,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (41,8,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (41,37,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (41,60,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (41,61,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (42,37,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (42,39,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (43,23,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (43,25,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (44,11,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (44,12,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (44,16,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (44,23,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (44,28,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (44,29,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (44,53,11); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (44,54,13); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (44,58,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (44,59,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (44,60,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (45,14,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (45,15,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (45,23,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (45,30,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (45,31,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (45,57,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (46,23,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (46,47,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (47,23,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (47,30,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (47,31,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (47,42,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (47,43,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (47,48,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (48,23,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (48,49,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (50,14,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (50,48,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (51,48,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (51,59,2); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (52,39,5); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (52,46,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (52,47,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (52,60,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (53,45,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (53,61,1); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 2 @ (54,36,5); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (54,44,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (54,46,4); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (54,61,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (55,36,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (55,43,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (56,34,1); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (56,35,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (56,41,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (56,42,2); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 2 @ (56,43,13); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (56,46,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (57,34,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (57,37,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (57,46,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (57,61,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (57,62,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (58,54,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (59,53,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (60,31,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (60,34,8); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (60,48,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (60,49,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (60,50,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (60,51,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (60,52,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (62,45,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (64,50,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (64,61,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (64,65,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (65,51,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (65,52,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (65,53,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (65,66,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (66,59,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (66,60,2); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (66,66,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (67,67,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (68,67,2); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 2 @ (69,68,12); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 2 @ (69,69,4); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 2 @ (70,69,10); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 2 @ (70,70,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 2 @ (71,70,2); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 2 @ (72,70,9); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (21,70,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (23,69,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (24,60,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (24,61,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (24,62,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (24,63,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (24,68,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (25,55,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (25,64,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (26,54,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (26,55,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (26,65,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (26,68,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (26,70,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (27,65,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (27,67,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (28,65,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (28,67,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (29,44,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (29,45,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (29,46,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (29,48,3); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (29,65,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (29,67,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (30,47,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (30,65,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (30,67,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (31,26,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (31,28,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (31,52,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (32,29,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (32,34,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (32,35,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (32,36,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (32,37,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (32,38,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (32,39,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (32,40,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (32,41,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (32,42,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (32,43,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (34,25,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (34,26,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (35,26,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (36,8,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (36,13,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (36,14,3); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (38,54,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (38,55,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (38,56,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (39,8,1); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 3 @ (39,46,13); d = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (39,50,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (39,58,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (40,8,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (40,28,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (40,29,3); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (40,42,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (40,43,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (40,47,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (40,48,3); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (40,59,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (41,37,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (41,60,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (41,61,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (42,37,3); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (42,39,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (43,23,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (43,25,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (44,16,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (44,23,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (44,28,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (44,29,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (44,58,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (44,59,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (44,60,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (45,14,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (45,15,3); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (45,23,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (45,30,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (45,31,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (45,57,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (46,23,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (47,23,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (47,30,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (47,42,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (47,43,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (48,23,3); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (50,14,3); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (50,48,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (51,48,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (51,59,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (52,46,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (52,47,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (52,60,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (52,61,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (53,45,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (53,61,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (54,44,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (54,61,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (55,36,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (55,43,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (55,46,5); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (56,34,2); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (56,35,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (56,41,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (56,42,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (56,46,6); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (57,34,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (57,37,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (57,61,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (57,62,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (58,54,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (59,53,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (60,33,8); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (60,48,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (60,49,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (60,50,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (60,51,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (60,52,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (62,45,3); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (64,50,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (64,61,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (64,65,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (65,66,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (66,59,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (66,60,3); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (66,66,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (67,67,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (68,67,3); s = 2; l = 1
+         -> MAKE DEEPER :: Loop count = 3 @ (69,68,11); d = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 3 @ (69,69,5); s = 2; l = 2
+         -> MAKE DEEPER :: Loop count = 3 @ (70,69,9); d = 4; l = 0
+         -> MAKE SHALLOWER :: Loop count = 3 @ (70,70,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 3 @ (71,70,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (21,70,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (23,69,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (24,60,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (24,61,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (24,62,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (24,68,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (25,55,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (26,54,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (26,55,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (26,65,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (26,70,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (27,65,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (28,65,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (29,44,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (29,45,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (29,46,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (29,48,4); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (29,65,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (30,47,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (30,65,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (31,26,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (31,28,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (31,52,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (32,29,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (32,34,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (32,35,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (32,36,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (32,37,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (32,38,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (32,39,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (32,40,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (32,41,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (32,42,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (32,43,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (34,25,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (34,26,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (36,8,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (36,13,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (36,14,4); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (38,8,1); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (38,54,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (38,55,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (38,56,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (39,8,2); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (39,50,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (39,58,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (40,28,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (40,29,4); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (40,42,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (40,43,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (40,47,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (40,48,4); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (40,59,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (41,37,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (41,60,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (41,61,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (42,37,4); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (42,39,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (43,23,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (43,25,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (44,23,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (44,28,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (44,29,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (44,58,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (44,59,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (44,60,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (45,15,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (45,23,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (45,30,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (45,31,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (45,57,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (46,23,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (47,23,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (48,23,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (50,48,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 4 @ (51,59,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (52,46,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (52,60,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (52,61,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (53,61,3); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (54,61,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (55,43,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (56,34,3); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 4 @ (56,35,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (56,41,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (56,42,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (57,34,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (57,37,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (57,61,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (57,62,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (58,54,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (59,53,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (60,32,8); s = 3; l = 0
+         -> MAKE SHALLOWER :: Loop count = 4 @ (60,48,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (60,49,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (60,50,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (60,51,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (60,52,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (62,45,4); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (64,61,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (64,65,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (65,66,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (66,59,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (66,60,4); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (66,66,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (67,67,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (68,67,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 4 @ (69,69,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (70,70,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 4 @ (71,70,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (21,70,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (23,69,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (24,68,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (25,55,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (26,54,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (26,55,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (26,65,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (26,70,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (27,65,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (28,65,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (29,44,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (29,45,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (29,46,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (29,48,5); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (29,65,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (30,47,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (30,65,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (31,26,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (31,28,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (31,52,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (32,29,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (32,34,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (32,35,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (32,36,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (32,37,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (32,38,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (32,39,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (32,40,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (32,41,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (32,42,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (32,43,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (34,25,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (36,8,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (36,13,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (36,14,5); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (38,8,2); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (38,54,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (38,55,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (38,56,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (39,50,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (39,58,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (40,28,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (40,29,5); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (40,42,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (40,43,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (40,47,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (40,48,5); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (40,59,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (41,37,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (41,60,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (41,61,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (42,37,5); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (44,28,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (44,29,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (44,58,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (44,59,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (44,60,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (45,14,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (45,15,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (45,30,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (45,31,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (45,57,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (51,59,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (52,60,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (52,61,3); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (53,61,4); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (54,61,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (55,43,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (56,41,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (56,42,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (57,34,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (57,37,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (57,61,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (57,62,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (58,54,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (59,53,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (60,48,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (60,49,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (60,50,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (60,51,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (60,52,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (62,45,5); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (64,61,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (64,65,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (65,66,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (66,66,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (67,67,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (68,67,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 5 @ (69,69,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (70,70,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 5 @ (71,70,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (21,70,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (23,69,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (24,68,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (25,55,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (26,54,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (26,55,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (26,65,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (26,70,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (27,65,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (28,65,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (29,44,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (29,45,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (29,46,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (29,48,6); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (29,65,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (30,47,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (30,65,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (31,26,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (31,28,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (31,52,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (32,29,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (32,34,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (32,35,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (32,36,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (32,37,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (32,38,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (32,39,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (32,40,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (32,41,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (32,42,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (32,43,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (34,25,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (36,8,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (36,13,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (36,14,6); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (38,54,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (38,55,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (38,56,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (39,50,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (39,58,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (40,28,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (40,29,6); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (40,42,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (40,43,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (40,47,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (40,48,6); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (40,59,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (41,37,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (41,60,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (41,61,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (42,37,6); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (44,28,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (44,58,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (44,59,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (44,60,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (45,30,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (45,57,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (51,59,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (52,60,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (52,61,4); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (53,61,5); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (54,61,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (56,41,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (56,42,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (57,34,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (57,37,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (57,61,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (57,62,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (58,54,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (59,53,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (60,48,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (60,49,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (60,50,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (60,51,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (60,52,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (62,45,6); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (64,61,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (64,65,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (65,66,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (66,66,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (67,67,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (68,67,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 6 @ (70,70,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 6 @ (71,70,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (21,70,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (23,69,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (24,68,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (25,55,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (26,54,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (26,55,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (26,65,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (26,70,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (27,65,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (28,65,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (29,44,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (29,45,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (29,46,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (29,48,7); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (29,65,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (30,47,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (30,65,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (31,26,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (31,28,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (31,52,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (32,29,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (32,34,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (32,35,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (32,36,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (32,37,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (32,38,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (32,39,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (32,40,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (32,41,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (32,42,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (32,43,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (34,25,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (36,13,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (36,14,7); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (38,54,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (38,55,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (38,56,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (39,50,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (39,58,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (40,28,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (40,29,7); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (40,42,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (40,43,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (40,48,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (40,59,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (41,37,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (41,60,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (41,61,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (42,37,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (44,58,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (44,59,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (44,60,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (45,57,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (51,59,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (52,60,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (52,61,5); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (53,61,6); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (54,61,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (56,41,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (56,42,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (57,34,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (57,37,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (57,61,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (57,62,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (58,54,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (59,53,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (60,48,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (60,49,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (60,50,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (60,51,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (60,52,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (62,45,7); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (64,61,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (64,65,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (65,66,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (66,66,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (67,67,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 7 @ (68,67,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 7 @ (70,70,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (21,70,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (23,69,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (24,68,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (25,55,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (26,54,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (26,55,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (26,65,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (26,70,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (27,65,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (28,65,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (29,44,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (29,45,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (29,46,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (29,48,8); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (29,65,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (30,47,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (30,65,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (31,28,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (31,52,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (32,29,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (32,34,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (32,35,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (32,36,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (32,37,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (32,38,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (32,39,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (32,40,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (32,41,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (32,42,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (32,43,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (36,13,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (36,14,8); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (38,54,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (38,55,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (38,56,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (39,50,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (39,58,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (40,28,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (40,29,8); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (40,42,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (40,43,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (40,47,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (40,48,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (40,59,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (41,37,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (41,60,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (41,61,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (42,37,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (44,58,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (44,59,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (44,60,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (45,57,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (51,59,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (52,60,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (52,61,6); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (53,61,7); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (54,61,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (56,41,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (56,42,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (57,34,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (57,37,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (57,61,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (57,62,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (58,54,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (59,53,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (60,48,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (60,49,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (60,50,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (60,51,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (60,52,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (62,45,8); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (64,61,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (64,65,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (65,66,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (66,66,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 8 @ (67,67,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 8 @ (68,67,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (21,70,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (23,69,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (24,68,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (25,55,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (26,54,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (26,55,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (26,65,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (26,70,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (27,65,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (28,65,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (29,44,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (29,45,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (29,46,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (29,48,9); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (29,65,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (30,47,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (30,65,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (31,28,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (31,52,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (32,29,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (32,34,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (32,35,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (32,36,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (32,37,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (32,38,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (32,39,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (32,40,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (32,41,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (32,42,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (32,43,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (36,13,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (36,14,9); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (38,54,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (38,55,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (38,56,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (39,50,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (39,58,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (40,28,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (40,29,9); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (40,42,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (40,43,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (40,47,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (40,59,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (41,37,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (41,60,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (41,61,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (44,58,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (44,59,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (44,60,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (45,57,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (51,59,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (52,60,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (52,61,7); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (53,61,8); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (54,61,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (56,41,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (56,42,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (57,34,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (57,37,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (57,61,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (57,62,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (58,54,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (60,48,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (60,49,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (60,50,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (60,51,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (62,45,9); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (64,61,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (64,65,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (65,66,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (66,66,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 9 @ (67,67,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 9 @ (68,67,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (21,70,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (23,69,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (24,68,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (25,55,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (26,54,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (26,55,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (26,65,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (26,70,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (27,65,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (28,65,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (29,44,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (29,45,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (29,46,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (29,48,10); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (29,65,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (30,47,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (30,65,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (31,28,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (31,52,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (32,29,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (32,34,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (32,35,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (32,36,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (32,37,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (32,38,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (32,39,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (32,40,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (32,41,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (32,42,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (32,43,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (36,13,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (36,14,10); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (38,54,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (38,55,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (38,56,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (39,50,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (39,58,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (40,28,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (40,29,10); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (40,42,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (40,59,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (41,37,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (41,60,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (41,61,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (44,58,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (44,59,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (44,60,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (45,57,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (51,59,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (52,60,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (52,61,8); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (53,61,9); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (54,61,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (56,41,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (56,42,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (57,34,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (57,37,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (57,61,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (57,62,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (58,54,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (60,48,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (60,49,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (60,50,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (60,51,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (62,45,10); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (64,61,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (64,65,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (65,66,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 10 @ (66,66,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 10 @ (67,67,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (21,70,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (23,69,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (24,68,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (26,54,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (26,65,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (26,70,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (27,65,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (28,65,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (29,44,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (29,45,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (29,46,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (29,48,11); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (29,65,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (30,47,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (30,65,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (31,28,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (31,52,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (32,29,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (32,34,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (32,35,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (32,36,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (32,37,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (32,38,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (32,39,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (32,40,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (32,41,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (32,42,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (32,43,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (36,13,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (36,14,11); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (38,54,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (38,55,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (38,56,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (39,50,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (39,58,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (40,28,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (40,29,11); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (40,59,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (41,37,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (41,60,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (41,61,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (44,58,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (44,59,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (44,60,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (45,57,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (51,59,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (52,60,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (52,61,9); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (53,61,10); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (54,61,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (56,41,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (56,42,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (57,34,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (57,37,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (57,61,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (57,62,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (58,54,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (60,48,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (60,49,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (60,50,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (60,51,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (62,45,11); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 11 @ (64,61,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (64,65,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (65,66,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 11 @ (66,66,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (21,70,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (23,69,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (24,68,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (26,54,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (26,65,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (26,70,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (27,65,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (28,65,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (29,44,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (29,45,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (29,46,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (29,48,12); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (29,65,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (30,47,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (30,65,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (31,28,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (31,52,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (32,29,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (32,34,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (32,35,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (32,36,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (32,37,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (32,38,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (32,39,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (32,40,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (32,41,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (32,42,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (32,43,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (36,13,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (36,14,12); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (38,54,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (38,55,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (38,56,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (39,50,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (39,58,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (40,29,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (40,59,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (41,37,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (41,60,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (41,61,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (44,58,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (44,59,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (44,60,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (45,57,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (51,59,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (52,60,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (52,61,10); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (53,61,11); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (54,61,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (56,41,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (57,37,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (57,61,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (57,62,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (58,54,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (60,48,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (60,49,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (60,50,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (60,51,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (62,45,12); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 12 @ (64,61,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (64,65,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (65,66,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 12 @ (66,66,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (21,70,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (23,69,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (24,68,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (26,54,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (26,65,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (26,70,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (27,65,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (28,65,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (29,44,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (29,45,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (29,46,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (29,48,13); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (29,65,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (30,47,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (30,65,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (31,28,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (31,52,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (32,29,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (32,34,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (32,35,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (32,36,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (32,37,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (32,38,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (32,39,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (32,40,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (32,41,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (32,42,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (32,43,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (36,13,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (36,14,13); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (38,54,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (38,55,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (38,56,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (39,58,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (40,28,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (40,59,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (41,37,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (41,61,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (44,58,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (44,59,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (44,60,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (45,57,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (51,59,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (52,60,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (52,61,11); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (53,61,12); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (54,61,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (57,61,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (57,62,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (58,54,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (60,48,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (60,49,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (60,50,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (60,51,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (62,45,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 13 @ (64,61,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (64,65,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (65,66,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 13 @ (66,66,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (26,65,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (26,70,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (27,65,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (29,44,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (29,45,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (29,46,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (29,48,14); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (30,47,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (31,52,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (32,29,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (32,34,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (32,35,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (32,36,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (32,37,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (32,38,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (32,39,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (32,40,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (32,41,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (32,42,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (32,43,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (36,13,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (36,14,14); s = 3; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (38,54,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (38,55,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (38,56,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (39,58,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (40,59,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (41,61,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (44,58,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (44,59,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (44,60,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (45,57,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (51,59,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (52,60,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (52,61,12); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (53,61,13); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (54,61,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (57,62,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (58,54,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (62,45,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 14 @ (64,61,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (64,65,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (65,66,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 14 @ (66,66,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 15 @ (52,61,13); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 15 @ (53,61,14); s = 2; l = 1
+         -> MAKE SHALLOWER :: Loop count = 15 @ (65,66,14); s = 2; l = 2
+         -> MAKE SHALLOWER :: Loop count = 16 @ (52,61,14); s = 2; l = 2
+       - Topography filtered.
+>  13. FINAL TOPO ...
+>  14. FINAL K1 ...
+       - .grid.txt saved
+>  15. CALCULATING RUN-OFF AND GENERATE .k1 FILE ...
+       - .k1 file saved
+>  16. IDENTIFY ISLANDS ...
+       * found 1 land masses
+       * found 2 land masses
+       * found 3 land masses
+       * found 4 land masses
+       * found 5 land masses
+       * found 6 land masses
+       * found 7 land masses
+>  17. UPDATING ISLANDS & PATHS ...
+       * updated find: 1 islands
+       * updated find: 2 islands
+       * updated find: 3 islands
+       * updated find: 4 islands
+       * updated find: 5 islands
+       * updated find: 6 islands
+       * updated find: N pole island (currently uncounted)
+       * updated find: 7 islands
+       * total # true islands = 7
+         -> Border #1 grid point removed at @ (8,1)
+         -> Border #1 grid point removed at @ (9,1)
+         -> Border #1 grid point removed at @ (10,1)
+         -> Border #1 grid point removed at @ (11,1)
+         -> Border #1 grid point removed at @ (12,1)
+         -> Border #1 grid point removed at @ (13,1)
+         -> Border #1 grid point removed at @ (14,1)
+         -> Border #1 grid point removed at @ (24,10)
+         -> Border #1 grid point removed at @ (33,43)
+>  18. GENERATING .paths FILE ...
+       * Ignoring border #1
+       * Creating raw path #2 ...
+       * Creating raw path #3 ...
+       * Creating raw path #4 ...
+       * Creating raw path #5 ...
+       * Creating raw path #6 ...
+       * Creating raw path #7 ...
+       * Creating raw path #8 ...
+       * Building path #2 ...
+         -> NE corner :: Skip path entry @ (38,66)
+         -> SE corner :: Add additional path entry @ (38,65)
+         -> NE corner :: Skip path entry @ (42,65)
+         -> SE corner :: Add additional path entry @ (42,64)
+         -> NE corner :: Skip path entry @ (43,64)
+         -> SE corner :: Add additional path entry @ (43,63)
+         -> NE corner :: Skip path entry @ (44,63)
+         -> SE corner :: Add additional path entry @ (44,61)
+         -> NE corner :: Skip path entry @ (45,61)
+         -> SE corner :: Add additional path entry @ (36,56)
+       * Building path #3 ...
+         -> NE corner :: Skip path entry @ (43,36)
+         -> SE corner :: Add additional path entry @ (40,32)
+       * Building path #4 ...
+         -> NE corner :: Skip path entry @ (49,50)
+         -> SE corner :: Add additional path entry @ (45,41)
+         -> NE corner :: Skip path entry @ (45,43)
+         -> SE corner :: Add additional path entry @ (44,43)
+         -> NE corner :: Skip path entry @ (44,45)
+         -> SE corner :: Add additional path entry @ (43,45)
+         -> NE corner :: Skip path entry @ (43,48)
+         -> SE corner :: Add additional path entry @ (42,48)
+       * Building path #5 ...
+         -> NE corner :: Skip path entry @ (58,39)
+         -> SE corner :: Add additional path entry @ (50,25)
+         -> NE corner :: Skip path entry @ (50,26)
+         -> SE corner :: Add additional path entry @ (46,25)
+         -> NE corner :: Skip path entry @ (46,26)
+         -> SE corner :: Add additional path entry @ (45,26)
+       * Building path #6 ...
+         -> NE corner :: Skip path entry @ (51,59)
+         -> SE corner :: Add additional path entry @ (49,57)
+       * Building path #7 ...
+         -> NE corner :: Skip path entry @ (31,30)
+         -> SE corner :: Add additional path entry @ (28,25)
+       * Building path #8 ...
+       - .paths file saved
+>  19. GENERATING .psiles FILE ...
+       - .psiles file saved
+>  20. CREATING WIND PRODUCTS ...
+       - windspeed variable (wind_mm_10m) does not exists in .nc
+       - Creating wind product input mask
+       - Regridding wind stress (x) to GOLDSTEIN u-grid
+       - Regridding wind stress (y) to GOLDSTEIN u-grid
+       - Regridding wind stress (x) to GOLDSTEIN v-grid
+       - Regridding wind stress (y) to GOLDSTEIN v-grid
+       - Regridding wind velocity (x) to GOLDSTEIN c-grid
+       - Regridding wind velocity (y) to GOLDSTEIN c-grid
+       - Regridding wind speed to GOLDSTEIN c-grid
+       - Regridding wind speed to land c-grid
+       - Written tau u (u point) data
+       - Written tau u (v point) data
+       - Written tau v (u point) data
+       - Written tau v (v point) data
+       - Written u wind velocity data
+       - Written v wind velocity data
+       - Written BIOGEM windspeed data
+       - Written FULL GRID uvaa windspeed data
+       - Written ENTS uvaa windspeed (derived from velocity)
+       - Re-grided GCM wind products.
+>  21. LOADING PLANETARY ALBEDO DATA ...
+       - Read GCM albedo data.
+>  22. CREATING PLANETARY ALBEDO DATA ...
+       - Re-gridded GCM planetary albedo data.
+       - 2D planetary albedo file saved
+       - Generated zonal mean planetary albedo profile.
+       - Zonal mean .albd_pl.dat file saved
+>  23. GENERATING CONFIG FILE PARAMETER LINES ...
+       - .config file saved
+>  24. GENERATING BASE-CONFIG FILE ...
+       - .config file saved
+ 
+------------------------------------------------------------
+   Congratulations! SOMETHING was created ... 
+   ... hope it was what you wished for! :o)
+------------------------------------------------------------
+ 
