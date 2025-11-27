@@ -90,20 +90,17 @@ if [ $iteration -eq 1 ]; then # first experiment doesnt necessarily start from a
     if [ $j -eq 0 ]; then
       j=10
     fi
-    if [ $i -le 20 ]; then # no waiting for first 20 runs
+    if [ $i -gt 10 ] && [ $i -le 20 ]; then # check if i is between 10 and 20
       printf "(cd /scratch/dn3g22/cgenie.muffin-$j/genie-main; sleep 360; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$j/lib; export LD_LIBRARY_PATH; module load gcc/6.4.0; module load gnumake; make cleanall; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
-"  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
+  "  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
     fi
-    if [ $i -le 30 ]; then # no waiting for first 20 runs
-      printf "(cd /scratch/dn3g22/cgenie.muffin-$j/genie-main; sleep 720; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$j/lib; export LD_LIBRARY_PATH; module load gcc/6.4.0; module load gnumake; make cleanall; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
-"  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
+    if [ $i -gt 20 ] && [ $i -le 30 ]; then # check if i is between 20 and 30
+      printf "(cd /scratch/dn3g22/cgenie.muffin-$j/genie-main; sleep 920; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$j/lib; export LD_LIBRARY_PATH; module load gcc/6.4.0; module load gnumake; make cleanall; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
+  "  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
     fi
-    if [ $i -le 40 ]; then # no waiting for first 20 runs
-      printf "(cd /scratch/dn3g22/cgenie.muffin-$j/genie-main; sleep 1080; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$j/lib; export LD_LIBRARY_PATH; module load gcc/6.4.0; module load gnumake; make cleanall; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
-"  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
-    else # subsequent experiments all start from a restart
-      printf "(cd /scratch/dn3g22/cgenie.muffin-$i/genie-main; module load gcc/6.4.0; module load gnumake; make cleanall; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$i/lib; export LD_LIBRARY_PATH; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 ${line}-$((iteration - 1)).config &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
-"  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
+    if [ $i -gt 30 ] && [ $i -le 40 ]; then # check if i is between 30 and 40
+      printf "(cd /scratch/dn3g22/cgenie.muffin-$j/genie-main; sleep 1280; LD_LIBRARY_PATH=/scratch/dn3g22/cgenie.muffin-$j/lib; export LD_LIBRARY_PATH; module load gcc/6.4.0; module load gnumake; make cleanall; chmod +x runmuffin.scratch.sh; ./runmuffin.scratch.sh $line $2 ${line} $3 &> /scratch/dn3g22/cgenie_log/muffin-basket-$(date '+%F_%H.%M')-${line}-${iteration}.log) &
+  "  >> /scratch/dn3g22/cgenie.jobs/muffin-basket-$short_name-$iteration.sbatch
     fi
   fi
   i=$((i+1))
