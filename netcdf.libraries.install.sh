@@ -1,7 +1,7 @@
 #!/bin/bash
 ### CGENIE LIBRARIES SETUP AND GENERAL INSTALL ###
 # This script installs the necessary NetCDF libraries for cgenie.muffin (for clones use the other version of this script).
-base_dir="/mainfs/scratch/dn3g22/cgenie.muffin"
+base_dir="/scratch/dn3g22/cgenie.muffin"
 
 if [ ! -d "$base_dir" ]; then
     echo "Directory $base_dir does not exist."
@@ -10,8 +10,8 @@ fi
 
 cd "$base_dir" || exit 1
 
-module load gcc/6.4.0  || true
-module load gnumake || true
+module load gcc/13.2.0  || true
+module load gsl/2.8 || true
 
 ### Install netcdf-4.6.1 ###
 wget https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.6.1.tar.gz
